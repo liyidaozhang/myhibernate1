@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+	<property name="connection.username">root</property>
+	<property name="connection.password">07682291200551</property>
+	<property name="connection.url">jdbc:mysql://127.0.0.1:3306/runoob</property>
+	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+	
+	<mapping resource="com/hsp/domain/Employee.hbm.xml"/>
+</session-factory>
+</hibernate-configuration>
